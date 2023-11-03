@@ -1,0 +1,42 @@
+@import "variables";
+.container {
+  .card {
+    box-shadow: 8px 8px 10px rgba(0.4, 4, 4, 0.63);
+    max-width: 300px;
+    max-height: 400px;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 60px;
+    h1 {
+      color: rgb(180, 4, 4);
+    }
+    h3 {
+      color: rgb(2, 95, 2);
+    }
+    img {
+      width: 100px;
+      border-radius: 50%;
+      margin: 1.5rem 0;
+    }
+    .buttons {
+      button {
+        border: none;
+        border-radius: 1rem;
+        margin-right: 0.5rem;
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
+      .small {
+        padding: 0.6rem;
+        background-color: $olive;
+      }
+      .large {
+        padding: 0.6rem 1.5rem;
+        background-color: $neon;
+      }
+    }
+  }
+}
